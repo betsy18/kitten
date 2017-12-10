@@ -1,13 +1,13 @@
-@media (max-device-width: 768px){
+@media screen and (max-width: 768px){
     .night{
         background-image: url('../assets/img/night.jpg');
-        height: 1800px;
+        height: 1600px;
         background-size: cover;
     }
     
     .night img {
         display: block;
-        margin: 500px auto;
+        margin: 300px auto;
         
     }
     .sunny, .dawn{
@@ -15,22 +15,22 @@
     }
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){
     .sunny{
         background-image: url('../assets/img/sunny-day.jpg');
         background-repeat: no-repeat;
     }
 
     .sunny img {
-        margin: 680px auto;
-        margin-left: 530px;
+        margin-top: 680px;
+        margin-left: 430px;
     }
     .night, .dawn{
         display: none;
     }
 }
 
-@media screen and (min-device-width: 992px){
+@media screen and (min-width: 992px){
     .dawn {
         background-image: url('../assets/img/dawn.png');
         max-height: 100%;

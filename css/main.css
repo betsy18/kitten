@@ -1,5 +1,42 @@
-* {
-    margin: 0px;
-    padding: 0px;
+@media  (min-width: 0px){
+    .night{
+        background-image: url('../assets/img/night.jpg');
+    }
+    
+    .night img {
+        display: block;
+        margin: auto;
+    }
+    .sunny, .dawn{
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+    .sunny{
+        background-image: url('../assets/img/sunny-day.jpg');
+    }
+
+    .sunny img {
+        display: block;
+        margin: auto;
+    }
+    .night, .dawn{
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    .dawn {
+        background-image: url('../assets/img/dawn.png');
+    }
+
+    .sunny img {
+        display: block;
+        margin: auto;
+    }
+    .night, .sunny{
+        display: none;
+    }
 }
 
